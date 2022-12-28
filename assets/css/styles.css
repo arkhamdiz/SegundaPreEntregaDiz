@@ -1,0 +1,57 @@
+.fondo3{
+    background-image: url(https://img.freepik.com/free-vector/vintage-monochrome-tattoos-seamless-pattern_225004-1538.jpg?w=360);
+}
+ 
+.icono{
+    height: auto;
+    width: auto;
+    border-radius:100%;
+}
+
+.principal{
+    grid-area:principal;
+    background-color: violet;
+    flex-direction:row;
+
+}
+
+.principal__foto{
+    height: 300px;
+    width: 300px;
+    flex-direction: row;
+    border:outset 5px green;
+}
+.principal__descripcion2{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    height: 50%;
+    width: 20%;
+    text-align:left;
+    border:outset 5px green;
+}
+
+div footer section ul li{
+    background-color: salmon;
+    display: inline-flex;
+    width: 15%;
+    position:static;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+@media only screen and (min-width:768 ){
+    .footer{
+    background-color: salmon;
+    display: inline-flex;
+    width: auto;
+    position:static;
+    text-align: center;
+    text-transform: capitalize;
+
+    }
+}
